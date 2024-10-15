@@ -5,8 +5,8 @@ import { Images } from "./components/Images"
 function App() {
 
   return (
-    <div className="bg-zinc-950 w-dvh flex justify-center overflow-hidden">
-      <div className="bg-zinc-900 overflow-hidden h-full w-full lg:w-11/12 ">
+    <div className="bg-zinc-950 w-dvh flex justify-center  overflow-hidden">
+      <div className="bg-zinc-900 lg:overflow-visible overflow-hidden h-full w-auto lg:w-11/12 ">
         <Header></Header>
         <Home></Home>
         <Images></Images>

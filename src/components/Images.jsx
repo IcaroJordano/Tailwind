@@ -1,9 +1,11 @@
 export function Images() {
     return(
-        <section className="h-56 flex w-screen overflow-hidden mt-16"  >
-            <div className="bg-white rounded-md  w-5/12 h-48 mx-auto -rotate-2">.</div>
-            <div className="bg-white rounded-md mx-5 w-10/12 h-48  rotate-2">.</div>
-            <div className="bg-white rounded-md w-5/12 h-48 mx-auto rotate-3">.</div>
+        <section className="flex  relative w-fit lg:w-fit overflow-x-hidden overflow-hidden lg:overflow-visible mb-72 -ml-20 lg:-ml-40 mt-16 "  >
+            <div className="bg-white rounded-2xl rotate-2  w-5/12  lg:w-72 h-48 lg:h-80 mx-auto lg:mx-4 hidden lg:block">.</div>
+            <div className="bg-white rounded-2xl -rotate-2 w-40  lg:w-72 h-48 lg:h-80 mx-auto lg:mx-4 ">.</div>
+            <div className="bg-white rounded-2xl rotate-2  w-40 lg:w-72 h-48 lg:h-80 mx-5    lg:mx-4 ">.</div>
+            <div className="bg-white rounded-2xl rotate-2  w-40  lg:w-72 h-48 lg:h-80 mx-auto lg:mx-4">.</div>
+            <div className="bg-white rounded-2xl -rotate-2 w-5/12  lg:w-72 h-48 lg:h-80 mx-auto lg:mx-4 hidden lg:block">.</div>
         </section>
     )
 }
