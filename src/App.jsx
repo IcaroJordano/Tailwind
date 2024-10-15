@@ -1,3 +1,4 @@
+import { Content } from "./components/Content"
 import { Header } from "./components/Header"
 import { Home } from "./components/Home"
 import { Images } from "./components/Images"
@@ -10,6 +11,7 @@ function App() {
         <Header></Header>
         <Home></Home>
         <Images></Images>
+        <Content></Content>
       </div>
     </div>
   )
