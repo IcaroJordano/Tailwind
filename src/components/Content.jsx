@@ -1,4 +1,5 @@
 import { CardNota } from "./CardNota";
+import { Email } from "./Email";
 
 export function Content() {
     return (
@@ -8,7 +9,9 @@ export function Content() {
                 <CardNota></CardNota>
                 <CardNota></CardNota>
             </div>
-            <div className="w-5/12 bg-black">.</div>
+            <div className="w-5/12 pt-5">
+                <Email></Email>
+            </div>
         </section>
     )
 }
