@@ -1,4 +1,5 @@
 import { Content } from "./components/Content"
+import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Home } from "./components/Home"
 import { Images } from "./components/Images"
@@ -12,6 +13,7 @@ function App() {
         <Home></Home>
         <Images></Images>
         <Content></Content>
+        <Footer></Footer>
       </div>
     </div>
   )
