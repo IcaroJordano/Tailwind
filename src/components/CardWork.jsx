@@ -1,6 +1,6 @@
 export function CardWork() {
     return (
-        <div className="w-11/12 h-14 my-5  ml-6 flex">
+        <div className="lg:w-11/12 w-10/12 h-14 my-5  ml-6 flex">
             <div className="bg-neutral-600 w-11 h-10 rounded-full">.</div>
             <div className="w-full pl-3 text-sm">
                 <h3 className=" text-slate-100">Planetaria</h3>
