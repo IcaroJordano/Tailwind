@@ -5,10 +5,9 @@ import { Home } from "./components/Home"
 import { Images } from "./components/Images"
 
 function App() {
-
   return (
-    <div className="bg-zinc-950 custom-scrollbar w-dvh flex justify-center  overflow-hidden">
-      <div className="bg-zinc-900 lg:overflow-visible overflow-hidden h-full w-auto lg:w-11/12 ">
+    <div className="bg-zinc-950 dark:bg-zinc-100  w-dvh flex justify-center  overflow-hidden">
+      <div className="bg-zinc-900 dark:bg-slate-50 lg:overflow-visible overflow-hidden h-full w-auto lg:w-11/12 ">
         <Header></Header>
         <Home></Home>
         <Images></Images>
