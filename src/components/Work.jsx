@@ -10,7 +10,7 @@ export function Work() {
             <CardWork></CardWork>
             <CardWork></CardWork>
             <CardWork></CardWork>
-            <a className="px-20 justify-center items-center flex lg:px-36 py-3 text-sm text-white dark:text-neutral-900 font-medium dark:bg-neutral-200/50 rounded-md mx-6 lg:ml-7 bg-neutral-600/10" href="">Download CV <IoIosArrowRoundDown className="scale-150 ml-2"></IoIosArrowRoundDown></a>
+            <a className="px-20 justify-center items-center flex lg:px-32 py-3 text-sm text-white dark:text-neutral-900 font-medium dark:bg-neutral-200/50 rounded-md mx-6 lg:ml-7 bg-neutral-600/10" href="">Download CV <IoIosArrowRoundDown className="scale-150 ml-2"></IoIosArrowRoundDown></a>
         </div>
     )
 }
